@@ -12,7 +12,7 @@ This project aims to predict the price of diamonds based on various features suc
 - **Target Variable**: `price`
 
 ## Preprocessing
-
+Ordinal encoding was used for categorical features
 
 ## Model Selection
 
@@ -27,7 +27,7 @@ This project aims to predict the price of diamonds based on various features suc
 
 ### Selected Model
 
-- **Model**:  XGBoost t Regressor
+- **Model**:  XGBoost Regressor
 - **Reason**: Achieved the R-squared value (0.98) and competitive Mean Absolute Error (276.58), with lightweight model size as compared to Random Forest
 
 
